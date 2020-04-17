@@ -1,0 +1,22 @@
+# Handle line endings automatically for files detected as text and leave all
+# files detected as binary untouched. This will handle all files NOT defined
+# below.
+* text eol=lf
+
+# Source Code
+
+*.js              text
+*.sh              text
+
+# Configs
+
+.editorconfig     text         export-ignore
+.gitattributes    text         export-ignore
+.gitignore        text         export-ignore
+.keep             text         export-ignore
+
+# Documentation
+
+*.md              text
+LICENCE           text         export-ignore
+README.md         text         export-ignore

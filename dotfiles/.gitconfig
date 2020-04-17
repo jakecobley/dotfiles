@@ -1,0 +1,7 @@
+[core]
+  editor = code --wait
+  excludesfile = ~/.gitignore
+
+[user]
+  name = Jake Cobley
+  email = 4924755+jakecobley@users.noreply.github.com
