@@ -45,4 +45,5 @@
   },
   "workbench.iconTheme": "file-icons",
   "workbench.startupEditor": "none",
+  "workbench.tips.enabled": false,
 }
