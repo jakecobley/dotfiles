@@ -1,9 +1,3 @@
-/**
- * HyperJS
- *
- * @see https://hyper.is#cfg
- */
-
 module.exports = {
   config: {
     fontSize: 14,
