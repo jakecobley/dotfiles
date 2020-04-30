@@ -12,7 +12,7 @@ Dotfiles - personal preferences for various applications, editors, linters, and 
 
 1. Execute the `create-symlinks.sh` script to symlink the dotfiles' to their required destinations.
 
-    **NOTE:** You'll likey have to modify the script's permissions to make it executable;  `chmod +x setup.sh`.
+    **NOTE:** You'll likey have to modify the script's permissions to make it executable;  `chmod +x create-symlinks.sh`.
 
     ```BASH
     $HOME/.dotfiles/create-symlinks.sh
