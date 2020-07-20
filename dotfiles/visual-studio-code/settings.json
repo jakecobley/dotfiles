@@ -3,6 +3,7 @@
     "source.fixAll.eslint": true
   },
   "editor.fontFamily": "'SF Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontWeight": "300",
   "editor.fontSize": 14,
   "editor.lineHeight": 21,
   "editor.minimap.enabled": false,
@@ -11,16 +12,23 @@
     "editor.rulers": [ 50, 72 ]
   },
   "editor.tabSize": 2,
+
   "eslint.alwaysShowStatus": true,
   "eslint.format.enable": true,
-  "eslint.validate": [ "javascript", "javascriptreact", "vue" ],
+  "eslint.validate": [ "javascript", "vue" ],
+
   "explorer.openEditors.visible": 0,
+
+  "files.associations": {
+    ".env.*.local": "dotenv"
+  },
   "files.eol": "\n",
   "files.insertFinalNewline": true,
+
   "terminal.integrated.fontFamily": "'SF Mono Powerline', 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.2,
-  "vetur.validation.template": false,
+
   "workbench.colorCustomizations": {
     "terminal.foreground": "#839496",
     "terminal.background": "#002833",
@@ -43,7 +51,7 @@
     "terminalCursor.foreground": "#839496",
     "terminalCursor.background": "#003541"
   },
-  "workbench.iconTheme": "file-icons",
+  "workbench.iconTheme": "file-icons-mac",
   "workbench.startupEditor": "none",
   "workbench.tips.enabled": false,
 }

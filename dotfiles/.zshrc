@@ -24,7 +24,6 @@ unsetopt PROMPT_SP
 
 # Hide username and hostname from within the powerline.
 DEFAULT_USER=$USER
-prompt_context() {}
 
 ################################################################################
 # Aliases
