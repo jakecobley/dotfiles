@@ -15,14 +15,21 @@
 # Configs
 ################################################################################
 
-.editorconfig     text         export-ignore
-.gitattributes    text         export-ignore
-.gitignore        text         export-ignore
-.keep             text         export-ignore
+.editorconfig     text         export-ignore  linguist-vendored
+.gitattributes    text         export-ignore  linguist-vendored
+.gitignore        text         export-ignore  linguist-vendored
+.keep             text         export-ignore  linguist-vendored
 
 ################################################################################
 # Documentation
 ################################################################################
 
 *.md              text
-LICENCE           text
+LICENCE           text                        linguist-documentation
+README.md         text                        linguist-documentation
+
+################################################################################
+# Contextual
+################################################################################
+
+dotfiles/*                                    linguist-vendored
