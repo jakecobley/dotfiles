@@ -46,4 +46,4 @@ git -C $HOME/.dotfiles commit -a -m "Update dotfiles"; git -C $HOME/.dotfiles pu
 
 ## Copyright and License
 
-This project is licenced under the [MIT](https://github.com/jakecobley/dotfiles/blob/master/LICENCE) Licence - see the [LICENCE](https://github.com/jakecobley/dotfiles/blob/master/LICENCE) for details.
+This project is licenced under the [ISC](https://github.com/jakecobley/dotfiles/blob/master/LICENCE) Licence - see the [LICENCE](https://github.com/jakecobley/dotfiles/blob/master/LICENCE) for details.
