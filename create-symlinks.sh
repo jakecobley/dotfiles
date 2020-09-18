@@ -14,7 +14,6 @@ do
       echo "Environment: $value"
       echo "Creating symlinks for dotfiles."
 
-      ln -sf "$DOTFILES_DIRECTORY/maocs/visual-studio-code/settings.json" "$HOME/Library/Application Support/Code/User/"
       ln -sf "$DOTFILES_DIRECTORY/common/.gitconfig" "$HOME/"
       ln -sf "$DOTFILES_DIRECTORY/macos/.gitignore" "$HOME/"
       ln -sf "$DOTFILES_DIRECTORY/macos/.hyper.js" "$HOME/"
@@ -40,7 +39,6 @@ do
       # (WSL2) and Windows. The following files will be copied instead. Changes
       # to these files will not be synced, and will be overwritten when running
       # `./create-symlinks.sh`.
-      cp -r "$DOTFILES_DIRECTORY/windows/visual-studio-code/settings.json" "$WINDOWS_HOME/AppData/Roaming/Code/User/"
       cp -r "$DOTFILES_DIRECTORY/windows/.hyper.js" "$WINDOWS_HOME/AppData/Roaming/Hyper/"
 
       echo "Symlinks created successfully. You may need to restart the shell for the changes to take effect."

@@ -14,7 +14,7 @@ Dotfiles - personal preferences for various applications, editors, linters, and 
 
 1. Execute the `create-symlinks.sh` script and select the environment, `macOS` or `Windows 10 with Windows Subsystem for Linux 2 (WSL2)`, to symlink the dotfiles to their required destinations.
     
-    **NOTE**: Symlinks cannot be created between Windows Subsystem for Linux 2 (WSL2) and Windows. Dotfiles which are required within Windows (Windows applications e.g. Hyper and Visual Studio Code) will be copied instead. Changes to these files will not be synced, and will be overwritten when running `./create-symlinks.sh`.
+    **NOTE**: Symlinks cannot be created between Windows Subsystem for Linux 2 (WSL2) and Windows. Dotfiles which are required within Windows (Windows applications e.g. Hyper) will be copied instead. Changes to these files will not be synced, and will be overwritten when running `./create-symlinks.sh`.
 
     ```BASH
     $HOME/.dotfiles/create-symlinks.sh
