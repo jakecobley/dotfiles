@@ -14,7 +14,9 @@ do
       echo "Environment: $value"
       echo "Creating symlinks for dotfiles."
 
+      ln -sf "$DOTFILES_DIRECTORY/common/.ssh/config" "$HOME/.ssh/"
       ln -sf "$DOTFILES_DIRECTORY/common/.gitconfig" "$HOME/"
+
       ln -sf "$DOTFILES_DIRECTORY/macos/.gitignore" "$HOME/"
       ln -sf "$DOTFILES_DIRECTORY/macos/.hyper.js" "$HOME/"
       ln -sf "$DOTFILES_DIRECTORY/macos/.zshrc" "$HOME/"
@@ -31,7 +33,9 @@ do
       echo "Environment: $value"
       echo "Creating symlinks for dotfiles."
 
+      ln -sf "$DOTFILES_DIRECTORY/common/.ssh/config" "$HOME/.ssh/"
       ln -sf "$DOTFILES_DIRECTORY/common/.gitconfig" "$HOME/"
+
       ln -sf "$DOTFILES_DIRECTORY/windows/.gitignore" "$HOME/"
       ln -sf "$DOTFILES_DIRECTORY/windows/.zshrc" "$HOME/"
 
